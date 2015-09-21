@@ -39,7 +39,12 @@
 
                                   ]};
     NSDictionary* advanced = @{SECTION: @"Advanced", MENU: @[
-                                    @{TITLE: @"Custom Draw Cell", CLASS: @"CustomDrawCell"}
+                                    @{TITLE: @"Custom Draw Cell", CLASS: @"CustomDrawCell"},
+                                    @{TITLE: @"Basic CollectionView", CLASS: @"BasicCollectionView#Collection"},
+//                                    @{TITLE: @"Custom CollectionView", CLASS: @"CustomCollectionView"},
+
+                                    @{TITLE: @"Basic Lazy Loading", CLASS: @"DemoLazyLoading"}
+                
                              ]};
     
     mainScreen.menu = @[basic, intermediate, advanced];
