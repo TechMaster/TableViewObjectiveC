@@ -48,8 +48,8 @@
                              ]};
     
     mainScreen.menu = @[basic, intermediate, advanced];
-    mainScreen.title = @"Bootstrap App";
-    mainScreen.about = @"This is demo bootstrap demo app. It is collection of sample code of AVFoundation";
+    mainScreen.title = @"Table View";
+    mainScreen.about = @"This is demo UITableView";
     //--------- End of customization -----------
     UINavigationController* nav = [[UINavigationController alloc] initWithRootViewController: mainScreen];
     
